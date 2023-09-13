@@ -47,32 +47,32 @@ const Navbar = () => {
                 <div className="flex space-x-4">
                   <Link
                     to="/"
-                    className="text-black hover:border-b-4 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
+                    className="text-black hover:border-b-4 duration-300 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
                     aria-current="page"
                   >
                     Home
                   </Link>
                   <Link
                     to="/voting"
-                    className="text-black hover:border-b-4 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
+                    className="text-black hover:border-b-4 duration-300 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
                   >
                     Voting
                   </Link>
                   <Link
                     to="/polls"
-                    className="text-black hover:border-b-4 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
+                    className="text-black hover:border-b-4 duration-300 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
                   >
                     Create Polls
                   </Link>
                   <Link
                     to="/pricing"
-                    className="text-black hover:border-b-4 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
+                    className="text-black hover:border-b-4 duration-300 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
                   >
                     Pricing
                   </Link>
                   <Link
                     to="/forms"
-                    className="text-black hover:border-b-4 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
+                    className="text-black hover:border-b-4 duration-300 hover:text-black rounded-md px-3 py-2 text-sm font-medium"
                   >
                     Forms
                   </Link>
@@ -82,13 +82,13 @@ const Navbar = () => {
             <div className="absolute inset-y-0 right-0 mx-2 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <Link
                 to="/login"
-                className="bg-transparent hover:bg-black mx-2 text-black font-semibold hover:text-white py-2 px-4 border border-black  hover:border-transparent rounded"
+                className="bg-transparent hover:bg-black duration-300 mx-2 text-black font-semibold hover:text-white duration-300 py-2 px-4 border border-black  hover:border-transparent rounded"
               >
                 Login
               </Link>
               <Link
                 to="signup"
-                className="bg-black hover:bg-slate-600 text-white font-bold py-2 px-4 rounded"
+                className="bg-black hover:bg-transparent hover:text-black hover:border hover:border-black duration-300 text-white font-bold py-2 px-4 rounded"
               >
                 Get Started
               </Link>
