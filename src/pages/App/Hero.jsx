@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="conatiner bg-slate-50">
+    <div className="conatiner bg-slate-50 ">
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div className="flex items-center max-w-md mx-auto border-0 p-3">
         <div className="flex border border-purple-200 rounded gap-4">
