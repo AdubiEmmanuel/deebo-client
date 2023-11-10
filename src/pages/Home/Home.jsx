@@ -1,5 +1,5 @@
-import Navbar from "../Navbar/Navbar"
-import Services from "../Services/Services"
+import Navbar from "../Shared/Navbar/Navbar"
+import Services from "../Layouts/Home/Services/Services"
 
 const Home = () => {
   return (

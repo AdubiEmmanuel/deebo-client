@@ -1,4 +1,4 @@
-import Logo from "../../assets/deebo-logo.png"
+import Logo from "/deebo-logo.png"
 
 import {Link} from "react-router-dom"
 const Navbar = () => {
@@ -21,13 +21,13 @@ const Navbar = () => {
                   className="hidden h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   aria-hidden="true"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M6 18L18 6M6 6l12 12"
                   />
                 </svg>
