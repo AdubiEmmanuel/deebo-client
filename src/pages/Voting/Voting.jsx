@@ -1,6 +1,13 @@
+import Tabs from "./Layouts/Tabs"
+import Hero from "../App/Hero"
+import HeroComp from "./Layouts/HeroComp"
+
 const Voting = () => {
   return (
-    <div>Voting</div>
+    <div><HeroComp/>
+      <Hero/>
+      <Tabs/>
+    </div>
   )
 }
 
