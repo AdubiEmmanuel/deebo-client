@@ -1,9 +1,9 @@
 export const Slider = () => {
   return (
-    <div className="container top-80  mt-5  md:top-0 lg:top-0">
+    <div className="top-80  mt-5  md:top-0 lg:top-0">
       <div className="w-100 bg-slate-50">
-        <div className="w-full max-screen p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 bg-gradient-to-t from-black via-slate-900 to-slate-800">
-          <div className="w-full h-[50%] text-center justify-center align-middle text-white">
+        <div className="lg:w-full lg:h-screen p-4 bg-white border border-gray-200  shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700 bg-gradient-to-t from-black via-gray-900 to-gray-800">
+          <div className="lg:w-full space-y-10 lg:h-1/3 text-center justify-center align-middle text-white">
             <h1 className="text-5xl text-bold my-5">BROWSE</h1>
             <p>
               Explore the vast range of events &{" "}

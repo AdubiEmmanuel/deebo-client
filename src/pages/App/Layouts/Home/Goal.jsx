@@ -1,10 +1,10 @@
 const Goal = () => {
     return (
       <div>
-        <div className="h-screen w-100 bg-slate-50  top-0">
+        <div className="w-100 bg-slate-50  top-0">
           <div className="mx-auto max-w-7xl px-2 py-10 sm:px-6 lg:px-8">
             <div className="flex items-center max-w-md mx-auto  border-0 p-3">
-              <p className="text-2xl text-grey-500">
+              <p className="text-2xl text-center text-grey-500">
                 Pick your goals for today!
               </p>
             </div>
