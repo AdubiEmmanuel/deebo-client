@@ -1,4 +1,4 @@
-import Tabs from "./Layouts/Tabs"
+import Tabs from "./Layouts/Tabs/Tabs"
 import Hero from "../App/Hero"
 import HeroComp from "./Layouts/HeroComp"
 
