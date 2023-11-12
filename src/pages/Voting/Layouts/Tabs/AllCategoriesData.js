@@ -89,7 +89,7 @@ export const AllCategoriesData = [{
         category: "gameshow"
     },
     {
-        id: 6,
+        id: 8,
         img: "https://images.pexels.com/photos/3944091/pexels-photo-3944091.jpeg?auto=compress&cs=tinysrgb&w=1600",
         title: "Laff Matters 10.0",
         location: "Location: Portharcut",
@@ -100,7 +100,7 @@ export const AllCategoriesData = [{
         category: "music"
     },
     {
-        id: 7,
+        id: 9,
         img: "https://images.pexels.com/photos/2479312/pexels-photo-2479312.jpeg?auto=compress&cs=tinysrgb&w=1600",
         title: "Laff Matters 10.0",
         location: "Location: Portharcut",
