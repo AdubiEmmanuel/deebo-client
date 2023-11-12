@@ -1,0 +1,7 @@
+.section-gray {
+  background: linear-gradient(36deg, rgb(230, 220, 220) 0%, rgb(216, 214, 214) 100%);
+  color: white;
+  clip-path: polygon(0 0, 0% 10%, 200% 100%, 0% 100%);
+  margin-top: -160px;
+  padding-top: 120px;
+}
